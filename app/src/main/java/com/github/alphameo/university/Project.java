@@ -1,5 +1,7 @@
 package com.github.alphameo.university;
 
+import java.time.LocalDateTime;
+
 public class Project {
 
 	private String name;
@@ -15,7 +17,7 @@ public class Project {
 	}
 
 	public LocalDateTime getEndDate() {
-
+		throw new UnsupportedOperationException();
 	}
 
 	/**

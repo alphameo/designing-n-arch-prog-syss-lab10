@@ -1,5 +1,7 @@
 package com.github.alphameo.university;
 
+import java.util.List;
+
 public class Lecturer extends ResearchPerson {
 
 	private List<Course> courses;

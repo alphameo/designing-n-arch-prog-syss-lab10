@@ -1,5 +1,7 @@
 package com.github.alphameo.university;
 
+import java.util.List;
+
 public class Faculty {
 
 	private String name;

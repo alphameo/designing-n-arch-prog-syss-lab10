@@ -1,5 +1,7 @@
 package com.github.alphameo.university;
 
+import java.util.List;
+
 public abstract class ResearchPerson extends Employee {
 
 	private List<Institute> institutes;
