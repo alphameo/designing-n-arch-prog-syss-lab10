@@ -6,6 +6,12 @@ public abstract class Employee {
 	private String socialSecurityNumber;
 	private String email;
 
+	public Employee(String name, String socialSecurityNumber, String email) {
+		this.name = name;
+		this.socialSecurityNumber = socialSecurityNumber;
+		this.email = email;
+	}
+
 	public String getName() {
 		return this.name;
 	}

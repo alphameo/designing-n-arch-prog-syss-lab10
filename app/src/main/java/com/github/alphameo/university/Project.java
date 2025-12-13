@@ -8,6 +8,12 @@ public class Project {
 	private LocalDateTime startingDate;
 	private LocalDateTime endDate;
 
+	public Project(String name, LocalDateTime startingDate, LocalDateTime endDate) {
+		this.name = name;
+		this.startingDate = startingDate;
+		this.endDate = endDate;
+	}
+
 	public String getName() {
 		return this.name;
 	}

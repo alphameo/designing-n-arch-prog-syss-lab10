@@ -9,6 +9,12 @@ public class ProjectParticipation {
 	private Project project;
 	private ResearchPerson researcher;
 
+	public ProjectParticipation(int duration, Project project, ResearchPerson researcher) {
+		this.duration = duration;
+		this.project = project;
+		this.researcher = researcher;
+	}
+
 	public int getDuration() {
 		return this.duration;
 	}

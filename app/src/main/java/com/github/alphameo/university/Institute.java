@@ -5,6 +5,9 @@ public class Institute {
 	private String name;
 	private String address;
 
+	public Institute() {
+	}
+
 	public String getName() {
 		return this.name;
 	}

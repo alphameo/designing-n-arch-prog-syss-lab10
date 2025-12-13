@@ -8,6 +8,11 @@ public class Faculty {
 	private Employee dean;
 	private List<Institute> institutes;
 
+	public Faculty(String name, Employee dean) {
+		this.name = name;
+		this.dean = dean;
+	}
+
 	public String getName() {
 		return this.name;
 	}

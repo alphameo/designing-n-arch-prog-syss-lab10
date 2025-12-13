@@ -7,6 +7,11 @@ public abstract class ResearchPerson extends Employee {
 	private List<Institute> institutes;
 	private String researchArea;
 
+	public ResearchPerson(String name, String socialSecurityNumber, String email, String researchArea) {
+		super(name, socialSecurityNumber, email);
+		this.researchArea = researchArea;
+	}
+
 	public List<Institute> getInstitutes() {
 		return this.institutes;
 	}

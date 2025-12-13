@@ -4,10 +4,17 @@ public class Course {
 
 	private String id;
 	private String name;
+
 	/**
 	 * in hours
 	 */
 	private int weeklyDuration;
+
+	public Course(String id, String name, int weeklyDuration) {
+		this.id = id;
+		this.name = name;
+		this.weeklyDuration = weeklyDuration;
+	}
 
 	public String getId() {
 		return this.id;
