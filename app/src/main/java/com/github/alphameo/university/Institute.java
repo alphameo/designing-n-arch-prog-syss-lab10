@@ -17,7 +17,7 @@ public class Institute {
 	 * 
 	 * @param String
 	 */
-	public void rename(int String) {
+	public void rename(String name) {
 		// TODO - implement Institute.rename
 		throw new UnsupportedOperationException();
 	}
