@@ -14,7 +14,7 @@ public class Course {
 		return this.name;
 	}
 
-	public Integer getWeeklyDuration() {
+	public int getWeeklyDuration() {
 		// TODO - implement Course.getWeeklyDuration
 		throw new UnsupportedOperationException();
 	}
