@@ -25,8 +25,7 @@ public class Faculty {
 	 * @param name
 	 */
 	public void rename(String name) {
-		// TODO - implement Faculty.rename
-		throw new UnsupportedOperationException();
+		this.name = name;
 	}
 
 	/**
@@ -34,8 +33,7 @@ public class Faculty {
 	 * @param dean
 	 */
 	public void replaceDean(Employee dean) {
-		// TODO - implement Faculty.replaceDean
-		throw new UnsupportedOperationException();
+		this.dean = dean;
 	}
 
 	/**
@@ -43,8 +41,7 @@ public class Faculty {
 	 * @param institute
 	 */
 	public void addInstitute(Institute institute) {
-		// TODO - implement Faculty.addInstitute
-		throw new UnsupportedOperationException();
+		this.institutes.add(institute);
 	}
 
 	/**
@@ -52,8 +49,7 @@ public class Faculty {
 	 * @param institute
 	 */
 	public void removeInstitute(Institute institute) {
-		// TODO - implement Faculty.removeInstitute
-		throw new UnsupportedOperationException();
+		this.institutes.remove(institute);
 	}
 
 }

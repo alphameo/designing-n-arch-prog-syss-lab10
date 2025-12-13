@@ -20,8 +20,7 @@ public abstract class ResearchPerson extends Employee {
 	 * @param institute
 	 */
 	public void assignToInstitute(Institute institute) {
-		// TODO - implement ResearchPerson.assignToInstitute
-		throw new UnsupportedOperationException();
+		institutes.add(institute);
 	}
 
 	/**
@@ -29,8 +28,7 @@ public abstract class ResearchPerson extends Employee {
 	 * @param institute
 	 */
 	public void unassignFromInstitute(Institute institute) {
-		// TODO - implement ResearchPerson.unassignFromInstitute
-		throw new UnsupportedOperationException();
+		this.institutes.remove(institute);
 	}
 
 	/**
@@ -38,8 +36,7 @@ public abstract class ResearchPerson extends Employee {
 	 * @param researchArea
 	 */
 	public void replaceResearchArea(String researchArea) {
-		// TODO - implement ResearchPerson.replaceResearchArea
-		throw new UnsupportedOperationException();
+		this.researchArea = researchArea;
 	}
 
 }

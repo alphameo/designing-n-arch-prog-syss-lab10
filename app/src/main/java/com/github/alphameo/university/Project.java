@@ -17,7 +17,7 @@ public class Project {
 	}
 
 	public LocalDateTime getEndDate() {
-		throw new UnsupportedOperationException();
+		return this.endDate;
 	}
 
 	/**
@@ -25,8 +25,7 @@ public class Project {
 	 * @param name
 	 */
 	public void rename(String name) {
-		// TODO - implement Project.rename
-		throw new UnsupportedOperationException();
+		this.name = name;
 	}
 
 	/**
@@ -34,8 +33,7 @@ public class Project {
 	 * @param startingDate
 	 */
 	public void changeStartingDate(LocalDateTime startingDate) {
-		// TODO - implement Project.changeStartingDate
-		throw new UnsupportedOperationException();
+		this.startingDate = startingDate;
 	}
 
 	/**
@@ -43,8 +41,7 @@ public class Project {
 	 * @param endDate
 	 */
 	public void changeEndDate(LocalDateTime endDate) {
-		// TODO - implement Project.changeEndDate
-		throw new UnsupportedOperationException();
+		this.endDate = endDate;
 	}
 
 }

@@ -23,8 +23,7 @@ public abstract class Employee {
 	 * @param name
 	 */
 	public void rename(String name) {
-		// TODO - implement Employee.rename
-		throw new UnsupportedOperationException();
+		this.name = name;
 	}
 
 	/**
@@ -32,8 +31,7 @@ public abstract class Employee {
 	 * @param name
 	 */
 	public void changeEmail(String email) {
-		// TODO - implement Employee.changeEmail
-		throw new UnsupportedOperationException();
+		this.email = email;
 	}
 
 }

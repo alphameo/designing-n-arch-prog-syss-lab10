@@ -20,8 +20,7 @@ public class University {
 	 * @param employee
 	 */
 	public void hireEmployee(Employee employee) {
-		// TODO - implement University.hireEmployee
-		throw new UnsupportedOperationException();
+		this.employees.add(employee);
 	}
 
 	/**
@@ -29,8 +28,7 @@ public class University {
 	 * @param employee
 	 */
 	public void fireEmployee(Employee employee) {
-		// TODO - implement University.fireEmployee
-		throw new UnsupportedOperationException();
+		this.employees.remove(employee);
 	}
 
 	/**
@@ -38,8 +36,7 @@ public class University {
 	 * @param faculty
 	 */
 	public void addFaculty(Faculty faculty) {
-		// TODO - implement University.addFaculty
-		throw new UnsupportedOperationException();
+		this.faculties.add(faculty);
 	}
 
 	/**
@@ -47,8 +44,7 @@ public class University {
 	 * @param faculty
 	 */
 	public void removeFaculty(Faculty faculty) {
-		// TODO - implement University.removeFaculty
-		throw new UnsupportedOperationException();
+		this.faculties.remove(faculty);
 	}
 
 }

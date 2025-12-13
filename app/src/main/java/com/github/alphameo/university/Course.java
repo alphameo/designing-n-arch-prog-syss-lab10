@@ -4,6 +4,9 @@ public class Course {
 
 	private String id;
 	private String name;
+	/**
+	 * in hours
+	 */
 	private int weeklyDuration;
 
 	public String getId() {
@@ -15,8 +18,7 @@ public class Course {
 	}
 
 	public int getWeeklyDuration() {
-		// TODO - implement Course.getWeeklyDuration
-		throw new UnsupportedOperationException();
+		return this.weeklyDuration;
 	}
 
 	/**
@@ -24,17 +26,15 @@ public class Course {
 	 * @param name
 	 */
 	public void rename(String name) {
-		// TODO - implement Course.rename
-		throw new UnsupportedOperationException();
+		this.name = name;
 	}
 
 	/**
 	 * 
-	 * @param duration
+	 * @param duration in hours
 	 */
 	public void changeWeeklyDuration(int duration) {
-		// TODO - implement Course.changeWeeklyDuration
-		throw new UnsupportedOperationException();
+		this.weeklyDuration = duration;
 	}
 
 }

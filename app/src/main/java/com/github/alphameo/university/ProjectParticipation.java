@@ -2,6 +2,9 @@ package com.github.alphameo.university;
 
 public class ProjectParticipation {
 
+	/**
+	 * in hours
+	 */
 	private int duration;
 	private Project project;
 	private ResearchPerson researcher;
@@ -20,11 +23,10 @@ public class ProjectParticipation {
 
 	/**
 	 * 
-	 * @param duration
+	 * @param duration in hours
 	 */
 	public void changeDuration(int duration) {
-		// TODO - implement ProjectParticipation.changeDuration
-		throw new UnsupportedOperationException();
+		this.duration = duration;
 	}
 
 }

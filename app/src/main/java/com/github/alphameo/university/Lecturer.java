@@ -15,8 +15,7 @@ public class Lecturer extends ResearchPerson {
 	 * @param course
 	 */
 	public void addCourse(Course course) {
-		// TODO - implement Lecturer.addCourse
-		throw new UnsupportedOperationException();
+		this.addCourse(course);
 	}
 
 	/**
@@ -24,8 +23,7 @@ public class Lecturer extends ResearchPerson {
 	 * @param course
 	 */
 	public void removeCourse(Course course) {
-		// TODO - implement Lecturer.removeCourse
-		throw new UnsupportedOperationException();
+		this.courses.remove(course);
 	}
 
 }
