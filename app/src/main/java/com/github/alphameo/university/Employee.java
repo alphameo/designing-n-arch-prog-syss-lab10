@@ -31,7 +31,7 @@ public abstract class Employee {
 	 * 
 	 * @param name
 	 */
-	public void changeEmail(String name) {
+	public void changeEmail(String email) {
 		// TODO - implement Employee.changeEmail
 		throw new UnsupportedOperationException();
 	}
