@@ -6,6 +6,7 @@ package com.github.alphameo;
 import java.time.LocalDateTime;
 import java.time.temporal.TemporalUnit;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import com.github.alphameo.university.AdministrativePerson;
 import com.github.alphameo.university.Course;
@@ -50,7 +51,13 @@ public class App {
         var goodEdu = new Project("GoodEducation", LocalDateTime.now(),
                 LocalDateTime.now().plusDays(12));
         var projectParticipations = List.of(new ProjectParticipation(12, goodEdu, nuzhnykh));
+        System.out.println("\n\n\n");
+
+        var projectsReview = projectParticipations.stream()
+                .map(ProjectParticipation::toString)
+                .collect(Collectors.joining("\n", "projectParticipations=[\n", "\n]"));
 
         System.out.println(vsu);
+        System.out.println(projectsReview);
     }
 }
