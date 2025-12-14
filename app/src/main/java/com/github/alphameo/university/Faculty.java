@@ -1,5 +1,6 @@
 package com.github.alphameo.university;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Faculty {
@@ -11,6 +12,7 @@ public class Faculty {
 	public Faculty(String name, Employee dean) {
 		this.name = name;
 		this.dean = dean;
+		this.institutes = new ArrayList<>();
 	}
 
 	public String getName() {

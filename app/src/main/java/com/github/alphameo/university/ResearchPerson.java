@@ -1,5 +1,6 @@
 package com.github.alphameo.university;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ResearchPerson extends Employee {
@@ -10,6 +11,7 @@ public class ResearchPerson extends Employee {
 	public ResearchPerson(String name, String socialSecurityNumber, String email, String researchArea) {
 		super(name, socialSecurityNumber, email);
 		this.researchArea = researchArea;
+		this.institutes = new ArrayList<>();
 	}
 
 	public List<Institute> getInstitutes() {

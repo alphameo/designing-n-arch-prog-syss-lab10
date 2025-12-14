@@ -1,5 +1,6 @@
 package com.github.alphameo.university;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Lecturer extends ResearchPerson {
@@ -8,6 +9,7 @@ public class Lecturer extends ResearchPerson {
 
 	public Lecturer(String name, String socialSecurityNumber, String email, String researchArea) {
 		super(name, socialSecurityNumber, email, researchArea);
+		this.courses = new ArrayList<>();
 	}
 
 	public List<Course> getCourses() {
@@ -19,7 +21,7 @@ public class Lecturer extends ResearchPerson {
 	 * @param course
 	 */
 	public void addCourse(Course course) {
-		this.addCourse(course);
+		this.courses.add(course);
 	}
 
 	/**

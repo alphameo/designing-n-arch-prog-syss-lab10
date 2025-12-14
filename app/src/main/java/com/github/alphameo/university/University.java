@@ -1,11 +1,12 @@
 package com.github.alphameo.university;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class University {
 
-	private List<Faculty> faculties;
-	private List<Employee> employees;
+	private List<Faculty> faculties = new ArrayList<>();
+	private List<Employee> employees = new ArrayList<>();
 
 	public List<Faculty> getFaculties() {
 		return this.faculties;
