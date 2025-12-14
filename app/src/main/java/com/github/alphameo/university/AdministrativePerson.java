@@ -4,4 +4,9 @@ public class AdministrativePerson extends Employee {
     public AdministrativePerson(String name, String socialSecurityNumber, String email) {
         super(name, socialSecurityNumber, email);
     }
+
+    @Override
+    public String toString() {
+        return "AdministrativePerson{" + super.toString() + "}";
+    }
 }

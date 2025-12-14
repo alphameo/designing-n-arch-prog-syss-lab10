@@ -26,4 +26,9 @@ public class Institute {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return "Institute{name=" + name + ", address=" + address + "}";
+	}
+
 }

@@ -35,4 +35,10 @@ public class ProjectParticipation {
 		this.duration = duration;
 	}
 
+	@Override
+	public String toString() {
+		return "ProjectParticipation{duration=" + duration + ", project=" + project + ", researcher=" + researcher
+				+ "}";
+	}
+
 }

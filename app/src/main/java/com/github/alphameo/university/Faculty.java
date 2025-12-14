@@ -59,4 +59,9 @@ public class Faculty {
 		this.institutes.remove(institute);
 	}
 
+	@Override
+	public String toString() {
+		return "Faculty{name=" + name + ", dean=" + dean.getName() + ", institutes=" + institutes + "}";
+	}
+
 }

@@ -2,6 +2,8 @@ package com.github.alphameo.university;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class University {
 
@@ -46,6 +48,15 @@ public class University {
 	 */
 	public void removeFaculty(Faculty faculty) {
 		this.faculties.remove(faculty);
+	}
+
+	@Override
+	public String toString() {
+		return "University{faculties=" + faculties + "\n\nemployees="
+				+ employees.stream()
+						.map(Employee::toString)
+						.collect(Collectors.joining("\n", "[\n", "\n]"))
+				+ "}";
 	}
 
 }

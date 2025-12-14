@@ -46,4 +46,10 @@ public class ResearchPerson extends Employee {
 		this.researchArea = researchArea;
 	}
 
+	@Override
+	public String toString() {
+		return "ResearchPerson{" + super.toString() + ", institutes=" + institutes + ", researchArea=" + researchArea
+				+ "}";
+	}
+
 }

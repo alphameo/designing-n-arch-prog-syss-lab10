@@ -32,4 +32,9 @@ public class Lecturer extends ResearchPerson {
 		this.courses.remove(course);
 	}
 
+	@Override
+	public String toString() {
+		return "Lecturer{" + super.toString() + ", courses=" + courses + "}";
+	}
+
 }

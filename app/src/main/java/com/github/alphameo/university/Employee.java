@@ -40,4 +40,9 @@ public abstract class Employee {
 		this.email = email;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee{name=" + name + ", socialSecurityNumber=" + socialSecurityNumber + ", email=" + email + "}";
+	}
+
 }

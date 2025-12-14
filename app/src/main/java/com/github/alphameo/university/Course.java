@@ -44,4 +44,9 @@ public class Course {
 		this.weeklyDuration = duration;
 	}
 
+	@Override
+	public String toString() {
+		return "Course{id=" + id + ", name=" + name + ", weeklyDuration=" + weeklyDuration + "}";
+	}
+
 }

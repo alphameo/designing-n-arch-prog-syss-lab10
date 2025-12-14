@@ -50,4 +50,9 @@ public class Project {
 		this.endDate = endDate;
 	}
 
+	@Override
+	public String toString() {
+		return "Project{name=" + name + ", startingDate=" + startingDate + ", endDate=" + endDate + "}";
+	}
+
 }
