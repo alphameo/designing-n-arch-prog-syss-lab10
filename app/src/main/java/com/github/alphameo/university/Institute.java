@@ -5,7 +5,9 @@ public class Institute {
 	private String name;
 	private String address;
 
-	public Institute() {
+	public Institute(String name, String address) {
+		this.name = name;
+		this.address = address;
 	}
 
 	public String getName() {
