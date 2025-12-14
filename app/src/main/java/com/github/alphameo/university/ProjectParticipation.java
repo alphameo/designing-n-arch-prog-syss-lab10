@@ -37,7 +37,8 @@ public class ProjectParticipation {
 
 	@Override
 	public String toString() {
-		return "ProjectParticipation{duration=" + duration + ", project=" + project + ", researcher=" + researcher
+		return "ProjectParticipation{duration=" + duration + ", project=" + project + ", researcher="
+				+ researcher.getName()
 				+ "}";
 	}
 
